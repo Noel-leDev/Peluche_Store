@@ -1,0 +1,65 @@
+/* Media query */
+
+
+
+@media (min-width : 768px){
+/*  
+    #offre .group{
+        grid-template-columns: repeat(2, 1fr);
+    } */
+    .menu-bars{ display: none;}
+    .topbar nav{ display: flex; }
+
+    #hero .content .set{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+   .words .set{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #hero .content .actions{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .mobile-img{
+        display: none !important;
+    }
+    .mobile-lg{
+        display: flex !important;
+    }
+    #hero .content .img{
+     justify-content: flex-end;
+    }
+
+
+
+    .md-2{ grid-template-columns: repeat(2, 1fr);}
+    .md-3{ grid-template-columns: repeat(3, 1fr);}
+    .md-4{ grid-template-columns: repeat(4, 1fr);}
+
+    #about .set{ grid-template-columns: max-content 1fr;}
+
+
+    
+}
+
+
+@media (min-width : 992px){
+     /* #offre .group{
+        grid-template-columns: repeat(3, 1fr);
+    } */
+
+}
+
+
+
+@media (min-width : 1200px){
+     /* #offre .group{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    */
+    
+    .container .section{
+        height: 100%;
+    } 
+}

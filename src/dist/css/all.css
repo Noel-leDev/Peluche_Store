@@ -1,0 +1,119 @@
+/* general */
+
+.container > .section:nth-child(even){
+    background:linear-gradient(to top, #ffe0e9,#fff);
+}
+.container > .section:nth-child(odd){
+    background:linear-gradient(#ffe0e9,#fff);
+}
+
+
+/* Hero section */
+
+.topbar{
+    border-bottom: 1px solid var(--gray);
+    padding: 1rem 0;
+    background-color: var(--white);
+}
+
+.topbar nav{
+    display: none;
+}
+
+
+#hero .content h1{
+    font-size: 50px;
+    line-height: 0.8;
+    margin-top: 0.5rem;
+}
+
+
+#hero .content .img{
+     display: flex;
+     justify-content: center;
+}
+
+.mobile-lg{
+    display: none !important;
+}
+
+#hero .content .img .thumb, #info .thumb{
+    /* width: 200px; */
+    height: 350px;
+}
+
+
+/* Fin */
+
+
+
+
+/* secure*/
+
+
+
+#secure .set .card{
+    display: grid;
+    gap: 1.5rem;
+    background-color: var(--white);
+    padding:  2rem;
+}
+#secure .set .card i{
+    font-size: 30px;
+}
+
+
+/* Fin */
+
+
+/* AVIS */
+
+#avis .set .item{
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--gray);
+}
+
+#avis .set .item .img{
+    background-color: var(--gray);
+    max-width: 70px;
+    min-height: 70px;
+    border-radius: 100px;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    font-size: 30px;
+
+}
+
+/* fin */
+
+
+
+/* offre */
+
+
+#offre .set .item{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+#offre .set .item .photo img{
+    border-radius: 10px;
+}
+/* fin */
+
+
+
+/* call */
+
+#call form label{
+    font-size: 18px;
+}
